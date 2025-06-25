@@ -77,6 +77,7 @@ const distances = [
    (distances.find((distance) => 
     (distance.start === start && distance.end === arr[index+1])) || 0).distance || 0)
 .reduce((start,end) => start+end,0);*/
+
  
  
  
