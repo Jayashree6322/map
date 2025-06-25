@@ -23,7 +23,7 @@ const finalRank = totalSort.map((result) => ({
     rank:result.grade==="pass"? rank+=1 : "-"
 }));
 
-console.table(finalRank);
+console.table(finalRank); 
 
 
 
