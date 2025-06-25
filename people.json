@@ -1,0 +1,20 @@
+[{
+    "name" : "Alice" ,
+    "age" : 24 ,
+    "city" : "London"
+},
+{
+    "name" : "Henry" ,
+    "age" : 28 ,
+    "city" : "Newyork"
+},
+{
+    "name" : "Charlie" ,
+    "age" : 22 ,
+    "city" : "Europe"
+},
+{
+    "name" : "Victoria" ,
+    "age" : 31 ,
+    "city" : "Veitnam"
+}]

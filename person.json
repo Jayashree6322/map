@@ -1,0 +1,6 @@
+{
+    "name" : "Alice" ,
+    "age" : 24 ,
+    "city" : "London" ,
+    "hobbies" : ["Swimming" , "Dancing" , "Cooking"]
+}
