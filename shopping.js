@@ -29,33 +29,21 @@ const taxes = {
     stationery:9
 };
 
-// const result = items.map((item) => {
-//    const total = item.price*item.quantity;
-//    const specialDiscount = itemDiscounts[item.name] ? itemDiscounts[item.name]/100 : categoryDiscounts[item.category]/100;
-//    const finalAmount = total - specialDiscount;
-//    const tax = finalAmount+taxes[item.category]/100;
-
-// return {
-//     name:item.name,
-//     totalPrice:total,
-//     finalPrice:finalAmount.toFixed(2),
-//     taxApplied:tax.toFixed(2)
-// };
-// }); 
-
 const result = items.map((item) => {
    const total = item.price*item.quantity;
    const specialDiscount = itemDiscounts[item.name] ? itemDiscounts[item.name]/100 : categoryDiscounts[item.category]/100;
-   const finalAmount = total- total * specialDiscount;
+   const finalAmount = total - specialDiscount;
    const tax = finalAmount+taxes[item.category]/100;
 
 return {
     name:item.name,
     totalPrice:total,
-    finalPrice:finalAmount,
-    taxApplied:tax
+    finalPrice:finalAmount.toFixed(2),
+    taxApplied:tax.toFixed(2)
 };
-});
+}); 
+
+
 
 console.table(result);
 
