@@ -14,3 +14,4 @@ const array2 = [6,7,8,9,10];
 const array = [...array1,...array2];
 
 console.log(array);
+
