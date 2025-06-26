@@ -107,6 +107,7 @@ console.log(arr2);
    return num === 10
  }
  console.log(check(10)); 
+ 
 
 
 
