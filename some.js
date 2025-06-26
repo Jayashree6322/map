@@ -24,3 +24,4 @@ const user2 = products.every((product) => product.price >= 100);
 console.log(user2);
 
 
+
