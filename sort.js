@@ -29,3 +29,4 @@ const output1 = users.sort((a,b) => a.occupation-b.occupation);
 
 console.log(output1);
 
+
