@@ -41,3 +41,4 @@ const parsedData = JSON.parse(jsonPeoples);
 
 console.log((parsedData));
 
+
