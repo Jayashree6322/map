@@ -42,6 +42,7 @@ var purchases = [
   const finalAmount = sumTotal.reduce((acc, sum) => acc+sum ,0);
 
   console.log(finalAmount);
+  
 
 
 
