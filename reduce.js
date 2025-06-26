@@ -83,3 +83,4 @@ console.log(eachLength);
 
 console.log(totalLength);
 
+
